@@ -1,6 +1,6 @@
 import unittest
 
-from app.services.HelloService import HelloService
+from app.services.BookingService import HelloService
 
 
 class HelloServiceTest(unittest.TestCase):

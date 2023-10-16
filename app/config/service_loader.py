@@ -1,10 +1,10 @@
 from collections import namedtuple
 
-from services.HelloService import HelloService
+from app.services.BookingService import BookingService
 
 
 def init_services():
     services_dict = {
-        "hello_service": HelloService()
+        "booking_service": BookingService()
     }
     return namedtuple('Services', services_dict.keys())(*services_dict.values())
