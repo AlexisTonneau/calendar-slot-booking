@@ -1,7 +1,7 @@
 name: Push to Dockerhub
 
 env:
-  DOCKERHUB_IMAGE_NAME: sample-fastapi
+  DOCKERHUB_IMAGE_NAME: calendar-slot-booking
 
 on:
   push:
